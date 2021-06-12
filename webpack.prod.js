@@ -69,5 +69,6 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: 'src/assets/', to: 'assets/' }],
     }),
+    '@babel/plugin-transform-runtime',
   ],
 };
